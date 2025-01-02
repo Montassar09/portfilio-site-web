@@ -165,7 +165,6 @@ p{
   text-align: center;
   font-size: 50px;
   margin-bottom: 1px;
-  margin-top:;
   background-image:linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%);
   color: transparent;
   background-clip: text;
@@ -179,6 +178,9 @@ p{
   left: 60%;
   transform: translate(-50%, -50%);
 }
+.des,.service{
+  margin-bottom: 125px;
+}
 .serviceee h4{
   text-align: center;
   font-size: 50px;
@@ -190,7 +192,7 @@ p{
 } 
 .custom-shape-divider-top-1735825532 {
   position: absolute;
-  top: 448%;
+  top: 450%;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -208,6 +210,21 @@ p{
   fill: #ffffff;
 }
 .wave{
-  background: linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%) !important;
+  background: linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%);
   min-height: 100vh;
+}
+h5{
+  position: absolute;
+  top: 460%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  font-weight: bold;
+  font-family: georgia,sans-serif ;
+	letter-spacing: 2px;
+}
+.pr{
+object-fit: cover;
+
 }
