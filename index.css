@@ -22,7 +22,7 @@ body {
     margin-left: 110px;
 
   } 
-  section {
+  .se {
     background: linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%) !important;
     min-height: 100vh; 
   }
@@ -133,13 +133,13 @@ h1{
 .threed{
 width: 30%;
 }
-.dev{
+.service{
   position: absolute;
   top: 150%;
   left: 60%;
   transform: translate(-50%, -50%);
 }
-h4{
+.service h4{
   text-align: center;
   font-size: 50px;
   margin-bottom: 1px;
@@ -150,4 +150,64 @@ h4{
 }
 p{
   font-size: 25px;
+}
+.imgd{
+  width: 40%;
+  margin-left: 60%;
+}
+.servicee{
+    position: absolute;
+    top: 280%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.servicee h4{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1px;
+  margin-top:;
+  background-image:linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%);
+  color: transparent;
+  background-clip: text;
+} 
+.des{
+  width: 40%;
+}
+.serviceee{
+  position: absolute;
+  top: 400%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.serviceee h4{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 1px;
+  margin-top:;
+  background-image:linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%);
+  color: transparent;
+  background-clip: text;
+} 
+.custom-shape-divider-top-1735825532 {
+  position: absolute;
+  top: 448%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1735825532 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1735825532 .shape-fill {
+  fill: #ffffff;
+}
+.wave{
+  background: linear-gradient(90deg, rgba(161,32,240,1) 0%, rgba(161,32,240,1) 44%, rgb(206, 5, 216) 100%) !important;
+  min-height: 100vh;
 }
